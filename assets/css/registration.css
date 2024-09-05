@@ -1,0 +1,76 @@
+/* Container styling */
+#memberzone-registration-form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Input field styling */
+#memberzone-registration-form input[type="text"],
+#memberzone-registration-form input[type="email"],
+#memberzone-registration-form input[type="password"],
+#memberzone-registration-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Dropdown select styling */
+#memberzone-registration-form select {
+  appearance: none;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjMiIHZpZXdCb3g9IjAgMCA0MCAzMCIgd2lkdGg9IjQwIj48cGF0aCBkPSJNMTQgMjFsNiA2IDYtNiIvPjwvc3ZnPg==");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px;
+}
+
+/* Submit button styling */
+#memberzone-registration-form input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #0073aa;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#memberzone-registration-form input[type="submit"]:hover {
+  background-color: #005177;
+}
+
+/* Placeholder text color */
+#memberzone-registration-form ::-webkit-input-placeholder {
+  color: #999;
+}
+
+#memberzone-registration-form :-ms-input-placeholder {
+  color: #999;
+}
+
+#memberzone-registration-form ::placeholder {
+  color: #999;
+}
+
+/* Add responsiveness */
+@media (max-width: 480px) {
+  #memberzone-registration-form {
+    padding: 15px;
+  }
+
+  #memberzone-registration-form input[type="submit"] {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
